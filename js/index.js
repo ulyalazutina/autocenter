@@ -12,6 +12,19 @@ const inputPhone = document.getElementById('number');
 
 window.addEventListener('DOMContentLoaded', () => {
 
+    document.querySelectorAll('a[href^="#"]').forEach(el => {
+        el.addEventListener('click', function (e) {
+          e.preventDefault();
+          if (document.querySelector('.header__nav-mobile')) {
+            navBox.classList.remove('header__nav-mobile');
+            burgerBtn.classList.remove('header__close');
+          }
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+
     IMask(
         inputPhone,
         {mask: '+{7} (000) 000-00-00'}
