@@ -12,7 +12,6 @@ const inputRules = document.getElementById('rules');
 const errorName = document.getElementById('error-name');
 const errorPhone = document.getElementById('error-phone');
 const errorRulese = document.getElementById('error-rules');
-const errorAll = document.querySelectorAll('.error');
 
 
 
