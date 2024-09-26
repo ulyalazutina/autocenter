@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Автомобили под заказ из Японии, Кореи и Китая" />
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>AUTOCENTER</title>
+</head>
+
+<body>
+    <header class="header center">
+        <a href="index.html"><img src="./img/logo.svg" alt="Логотип AUTOCENTER" /></a>
+        <div class="header__nav-box">
+            <nav class="header__nav">
+                <a class="header__link" href="#japan">Авто из Японии</a>
+                <a class="header__link" href="#china">Авто из Китая</a>
+                <a class="header__link" href="#korea">Авто из Кореи</a>
+                <div class="header__wrap">
+                    <div class="header__inner">
+                        <p class="header__link title-list">О нас</p>
+                        <svg class="header__icon">
+                            <use href="./img/icon.svg#icon-arrow"></use>
+                        </svg>
+                    </div>
+                    <ul class="header__list hide">
+                        <li><a class="header__list-link" href="#company">Компания</a></li>
+                        <li><a class="header__list-link" href="#reviews">Отзывы</a></li>
+                        <li><a class="header__list-link" href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="header__nav-social">
+                <a href="#">
+                    <svg class="header__icon-social">
+                        <use href="./img/icon.svg#icon-phone"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="header__icon-social">
+                        <use href="./img/icon.svg#icon-tg"></use>
+                    </svg>
+                </a>
+            </nav>
+            <div class="header__box">
+                <a class="header__phone" href="tel:+71234567890">+7 123 456 78 90</a>
+                <p class="header__text">Звонок по РФ бесплатный</p>
+            </div>
+        </div>
+        <div class="header__burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <main>
+        <section class="main centerMargin">
+            <div>
+                <h1 class="main__title">
+                    Авто из Японии, Кореи и Китая с выгодой до 30% ниже рынка РФ
+                </h1>
+                <p class="main__text">
+                    Высокий сервис для клиентов, от заключения договора до
+                    выдачи/отправки авто.
+                </p>
+                <button type="button" class="btn main__btn">
+                    Рассчитать стоимость
+                </button>
+            </div>
+            <img class="main__img" src="./img/main.png" alt="Машины" />
+        </section>
+        <section class="catalog center">
+            <h2 class="title">Автомобили из Японии</h2>
+            <div class="catalog__wrap">
+                <p class="subtitle">
+                    Toyota, Honda, Nissan и другие японские автомобили.
+                </p>
+                <a class="catalog__inner" href="#">
+                    <p class="catalog__link">Смотреть все</p>
+                    <svg class="catalog__icon">
+                        <use href="./img/icon.svg#icon-arrowRight"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="catalog__items">
+                <!-- карточки товаров -->
+            </div>
+            <button type="button" class="btn btn-center">Смотреть все</button>
+        </section>
+        <section class="card center">
+            <h2 class="title">Автомобили из Китая и Кореи</h2>
+            <p class="subtitle">Поможем с покупкой автомобилей из Китая и Кореи.</p>
+            <div class="card__items">
+                <div class="card__item card__item--china">
+                    <div class="card__wrap">
+                        <h3 class="card__heading">Автомобили из Китая</h3>
+                        <p class="card__text">
+                            Chery, Haval, EXEED и другие китайские автомобили.
+                        </p>
+                    </div>
+                    <button type="button" class="card__btn">Смотреть в каталоге</button>
+                </div>
+                <div class="card__item card__item--korea">
+                    <div class="card__wrap">
+                        <h3 class="card__heading">Автомобили из Кореи</h3>
+                        <p class="card__text">
+                            Hyundai, KIA, Genesis и другие корейские автомобили.
+                        </p>
+                    </div>
+                    <button type="button" class="card__btn">Смотреть в каталоге</button>
+                </div>
+            </div>
+        </section>
+        <section class="about centerMargin">
+            <div class="dark-bg">
+                <div class="about__wrapper">
+                    <div class="about__inner">
+                        <h2 class="title about__title">О нас</h2>
+                        <p class="about__desc">
+                            Компания «AUTOCENTER» предлагает широкий выбор автомобилей от
+                            ведущих мировых  производителей. Мы специализируемся на продаже
+                            новых и подержанных авто. Наша команда профессионалов поможет
+                            вам выбрать идеальный автомобиль, учитывая ваши потребности и
+                            бюджет.
+                        </p>
+                    </div>
+                    <img src="./img/logo-white.svg" alt="Логотип AUTOCENTER" />
+                </div>
+            </div>
+            <div class="about__container">
+                <div class="about__items">
+                    <div class="about__item">
+                        <svg class="about__icon">
+                            <use href="./img/icon.svg#icon-delivery"></use>
+                        </svg>
+                        <p class="about__text">Короткие сроки доставки</p>
+                    </div>
+                    <div class="about__item">
+                        <svg class="about__icon">
+                            <use href="./img/icon.svg#icon-escort"></use>
+                        </svg>
+                        <p class="about__text">
+                            Полное сопровождение. Связь с клиентом 24/7
+                        </p>
+                    </div>
+                    <div class="about__item">
+                        <svg class="about__icon">
+                            <use href="./img/icon.svg#icon-experience"></use>
+                        </svg>
+                        <p class="about__text">Опыт работы более 5 лет</p>
+                    </div>
+                    <div class="about__item">
+                        <svg class="about__icon">
+                            <use href="./img/icon.svg#icon-benefit"></use>
+                        </svg>
+                        <p class="about__text">
+                            ⁠Привезем авто с выгодой до 30% ниже рынка РФ
+                        </p>
+                    </div>
+                    <div class="about__item">
+                        <svg class="about__icon">
+                            <use href="./img/icon.svg#icon-service"></use>
+                        </svg>
+                        <p class="about__text">Высокий сервис для клиентов</p>
+                    </div>
+                    <div class="about__item">
+                        <svg class="about__icon">
+                            <use href="./img/icon.svg#icon-client"></use>
+                        </svg>
+                        <p class="about__text">Полная клиентоориентированность</p>
+                    </div>
+                    <div class="about__item">
+                        <svg class="about__icon">
+                            <use href="./img/icon.svg#icon-professionalism"></use>
+                        </svg>
+                        <p class="about__text">⁠Профессионализм сотрудников компании</p>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-center about__btn">
+                    Рассчитать стоимость
+                </button>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="reviews__header-wrap center">
+                <h2 class="title">Отзывы клиентов</h2>
+                <p class="reviews__count">253</p>
+            </div>
+            <div class="reviews__box center">
+                <p class="reviews__value">4,5</p>
+                <div class="reviews__stars">
+                    <svg width="17.148621" height="16.411255" viewBox="0 0 17.1486 16.4113" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <desc>Created with Pixso.</desc>
+                        <defs />
+                        <path id="路径"
+                            d="M7.67 0.51C8.07 -0.18 9.07 -0.18 9.47 0.51L11.8 4.51L16.32 5.49C17.1 5.66 17.41 6.61 16.88 7.2L13.79 10.65L14.26 15.26C14.34 16.05 13.53 16.64 12.8 16.32L8.57 14.45L4.33 16.32C3.6 16.64 2.8 16.05 2.88 15.26L3.34 10.65L0.26 7.2C-0.27 6.61 0.04 5.66 0.82 5.49L5.34 4.51L7.67 0.51Z"
+                            fill="#FFCC02" fill-opacity="1.000000" fill-rule="nonzero" />
+                    </svg>
+
+                    <svg width="17.148621" height="16.411255" viewBox="0 0 17.1486 16.4113" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <desc>Created with Pixso.</desc>
+                        <defs />
+                        <path id="路径"
+                            d="M7.67 0.51C8.07 -0.18 9.07 -0.18 9.47 0.51L11.8 4.51L16.32 5.49C17.1 5.66 17.41 6.61 16.88 7.2L13.79 10.65L14.26 15.26C14.34 16.05 13.53 16.64 12.8 16.32L8.57 14.45L4.33 16.32C3.6 16.64 2.8 16.05 2.88 15.26L3.34 10.65L0.26 7.2C-0.27 6.61 0.04 5.66 0.82 5.49L5.34 4.51L7.67 0.51Z"
+                            fill="#FFCC02" fill-opacity="1.000000" fill-rule="nonzero" />
+                    </svg>
+
+                    <svg width="17.148621" height="16.411255" viewBox="0 0 17.1486 16.4113" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <desc>Created with Pixso.</desc>
+                        <defs />
+                        <path id="路径"
+                            d="M7.67 0.51C8.07 -0.18 9.07 -0.18 9.47 0.51L11.8 4.51L16.32 5.49C17.1 5.66 17.41 6.61 16.88 7.2L13.79 10.65L14.26 15.26C14.34 16.05 13.53 16.64 12.8 16.32L8.57 14.45L4.33 16.32C3.6 16.64 2.8 16.05 2.88 15.26L3.34 10.65L0.26 7.2C-0.27 6.61 0.04 5.66 0.82 5.49L5.34 4.51L7.67 0.51Z"
+                            fill="#FFCC02" fill-opacity="1.000000" fill-rule="nonzero" />
+                    </svg>
+
+                    <svg width="17.148621" height="16.411255" viewBox="0 0 17.1486 16.4113" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <desc>Created with Pixso.</desc>
+                        <defs />
+                        <path id="路径"
+                            d="M7.67 0.51C8.07 -0.18 9.07 -0.18 9.47 0.51L11.8 4.51L16.32 5.49C17.1 5.66 17.41 6.61 16.88 7.2L13.79 10.65L14.26 15.26C14.34 16.05 13.53 16.64 12.8 16.32L8.57 14.45L4.33 16.32C3.6 16.64 2.8 16.05 2.88 15.26L3.34 10.65L0.26 7.2C-0.27 6.61 0.04 5.66 0.82 5.49L5.34 4.51L7.67 0.51Z"
+                            fill="#FFCC02" fill-opacity="1.000000" fill-rule="nonzero" />
+                    </svg>
+
+                    <svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <desc>Created with Pixso.</desc>
+                        <defs />
+                        <path id="路径"
+                            d="M9.09 2.38C9.5 1.69 10.49 1.69 10.9 2.38L13.22 6.38L17.75 7.36C18.53 7.53 18.84 8.48 18.3 9.08L15.22 12.53L15.69 17.13C15.77 17.92 14.96 18.51 14.23 18.19L10 16.32L5.76 18.19C5.03 18.51 4.22 17.92 4.3 17.13L4.77 12.53L1.69 9.08C1.15 8.48 1.46 7.53 2.24 7.36L6.77 6.38L9.09 2.38Z"
+                            fill="#E6E6E6" fill-opacity="1.000000" fill-rule="nonzero" />
+                        <path id="路径"
+                            d="M10 16.32L5.76 18.19C5.03 18.51 4.22 17.92 4.3 17.13L4.77 12.53L1.69 9.08C1.15 8.48 1.46 7.53 2.24 7.36L6.77 6.38L9.09 2.38C9.3 2.04 9.65 1.87 10 1.87L10 16.32Z"
+                            fill="#FFCC02" fill-opacity="1.000000" fill-rule="evenodd" />
+                    </svg>
+                </div>
+            </div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <!-- отзывы -->
+                </div>
+                <div class="swiper-button-prev">
+                    <svg class="swiper__icon" width="9.000977" height="16.500854" viewBox="0 0 9.00098 16.5009"
+                        fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <desc>
+                            Created with Pixso.
+                        </desc>
+                        <defs />
+                        <path id="Vector"
+                            d="M7.71 16.28L0.21 8.78C0.15 8.71 0.09 8.62 0.05 8.53C0.01 8.44 0 8.34 0 8.25C0 8.15 0.01 8.05 0.05 7.96C0.09 7.87 0.15 7.78 0.21 7.71L7.71 0.21C7.86 0.07 8.05 0 8.25 0C8.44 0 8.64 0.07 8.78 0.21C8.92 0.36 9 0.55 9 0.75C9 0.94 8.92 1.14 8.78 1.28L1.81 8.25L8.78 15.21C8.85 15.28 8.9 15.37 8.94 15.46C8.98 15.55 9 15.65 9 15.75C9 15.84 8.98 15.94 8.94 16.03C8.9 16.12 8.85 16.21 8.78 16.28C8.71 16.35 8.62 16.4 8.53 16.44C8.44 16.48 8.34 16.5 8.25 16.5C8.15 16.5 8.05 16.48 7.96 16.44C7.87 16.4 7.78 16.35 7.71 16.28Z"
+                            fill-opacity="1.000000" fill-rule="nonzero" />
+                    </svg>
+                </div>
+                <div class="swiper-button-next">
+                    <svg class="swiper__icon" width="9.000977" height="16.500854" viewBox="0 0 9.00098 16.5009"
+                        fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <desc>
+                            Created with Pixso.
+                        </desc>
+                        <defs />
+                        <path id="Vector"
+                            d="M1.28 0.21L8.78 7.71C8.85 7.78 8.9 7.87 8.94 7.96C8.98 8.05 9 8.15 9 8.25C9 8.34 8.98 8.44 8.94 8.53C8.9 8.62 8.85 8.71 8.78 8.78L1.28 16.28C1.14 16.42 0.94 16.5 0.75 16.5C0.55 16.5 0.36 16.42 0.21 16.28C0.07 16.14 0 15.94 0 15.75C0 15.55 0.07 15.36 0.21 15.21L7.19 8.25L0.21 1.28C0.15 1.21 0.09 1.12 0.05 1.03C0.01 0.94 0 0.84 0 0.75C0 0.65 0.01 0.55 0.05 0.46C0.09 0.37 0.15 0.28 0.21 0.21C0.28 0.15 0.37 0.09 0.46 0.05C0.55 0.01 0.65 0 0.75 0C0.84 0 0.94 0.01 1.03 0.05C1.12 0.09 1.21 0.15 1.28 0.21Z"
+                            fill-opacity="1.000000" fill-rule="nonzero" />
+                    </svg>
+
+                </div>
+            </div>
+        </section>
+        <section class="info centerMargin">
+            <div class="info__box">
+                <div>
+                    <h2 class="title info__title">Контактная информация</h2>
+                    <p class="info__subtitle">Оставьте свою заявку и наш менеджер свяжется с Вами для уточнения деталей.
+                    </p>
+                </div>
+                <div class="info__links">
+                    <ul class="info__list">
+                        <li>
+                            <p class="info__text">Позвонить</p>
+                            <a class="info__link" href="tel:+71234567890">+7 123 456 78 90</a>
+                        </li>
+                        <li>
+                            <p class="info__text">Написать</p>
+                            <a class="info__link" href="mailto:info@example.com">info@example.com</a>
+                        </li>
+                        <li>
+                            <p class="info__text">Адрес</p>
+                            <a class="info__link" href="#">123 Main Street, Tokyo, Japan</a>
+                        </li>
+                    </ul>
+                    <ul class="info__list info__list--social">
+                        <li>
+                            <img class="info__icon" src="./img/map.png" alt="2 гис">
+                            <a class="info__link info__link--weight" href="#">Мы на 2гис</a>
+                        </li>
+                        <li>
+                            <img class="info__icon" src="./img/yandex.png" alt="Яндекс карты">
+                            <a class="info__link info__link--weight" href="#">Мы на Яндекс картах</a>
+                        </li>
+                        <li>
+                            <img class="info__icon" src="./img/vl.png" alt="VL справочник">
+                            <a class="info__link info__link--weight" href="#">VL справочник</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <form action="#" class="info__form">
+                <h2 class="info__form-title">Оставить заявку</h2>
+                <div class="info__input-box">
+                    <div class="info__inner">
+                        <label class="info__label" for="name">
+                            Имя
+                        </label>
+                        <input required class="info__input" type="text" name="name" id="name" placeholder="Введите имя">
+                        <p id="error-name" class="error hide"></p>
+                    </div>
+                    <div class="info__inner">
+                        <label class="info__label" for="number">
+                            Телефон <span class="info__label info__label--gray">(Обязательно)</span>
+                        </label>
+                        <input required class="info__input" name="number" id="number" placeholder="+7" type="text">
+                        <p id="error-phone" class="error hide"></p>
+                    </div>
+                </div>
+                <div class="info__inner">
+                    <label class="info__label" for="msq">
+                        Уточните свой вопрос
+                    </label>
+                    <textarea class="info__input info__input--textarea" name="msq" id="msq" placeholder="Введите текст сообщения"></textarea>
+                </div>
+                <div class="info__footer">
+                    <div class="info__wrap">
+                        <input required class="info__check" type="checkbox" name="rules" id="rules">
+                        <label class="info__label" for="rules">С <a target="_blank" class="info__label info__label--link" href="#"> правилами политики конфиденциальности </a>ознакомлен</label>
+                    </div>
+                    <button class="info__btn" type="submit">Отправить</button>
+                </div>
+                <p id="error-rules" class="error hide"></p>
+
+            </form>
+            <div class="modal hide">
+                <h4 class="modal__title">Форма отправлена</h4>
+                <p class="modal__name"></p>
+                <p class="modal__phone"></p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer center">
+        <div class="footer__top">
+            <div class="footer__inner">
+                <a href="index.html"><img class="footer__logo" src="./img/logo-white.svg" alt="Логотип AUTOCENTER"></a>
+                <nav class="footer__nav">
+                    <a class="footer__link" href="#about">О нас</a>
+                    <a class="footer__link" href="#catalog">Каталог авто</a>
+                </nav>
+            </div>
+            <div class="footer__inner">
+                <nav class="footer__nav">
+                    <h6 class="footer__title">Авто из Японии</h6>
+                    <div class="footer__wrap">
+                        <a class="footer__link footer__link--gray" href="#">Toyota</a>
+                        <a class="footer__link footer__link--gray" href="#">Nissan</a>
+                        <a class="footer__link footer__link--gray" href="#">Honda</a>
+                        <a class="footer__link footer__link--gray" href="#">Mazda</a>
+                        <a class="footer__link footer__link--gray" href="#">Mitsubishi</a>
+                        <a class="footer__link footer__link--gray" href="#">Subaru</a>
+                        <a class="footer__link footer__link--gray" href="#">Suzuki</a>
+                        <a class="footer__link footer__link--gray" href="#">Lexus</a>
+                        <a class="footer__link footer__link--gray" href="#">BMW</a>
+                        <a class="footer__link footer__link--gray" href="#">Daihatsu</a>
+                    </div>
+                </nav>
+                <nav class="footer__nav">
+                    <h6 class="footer__title">Авто из Японии</h6>
+                    <div class="footer__wrap">
+                        <a class="footer__link footer__link--gray" href="#">Changan</a>
+                        <a class="footer__link footer__link--gray" href="#">Exeed</a>
+                        <a class="footer__link footer__link--gray" href="#">Geely</a>
+                        <a class="footer__link footer__link--gray" href="#">Chery</a>
+                        <a class="footer__link footer__link--gray" href="#">Haval</a>
+                        <a class="footer__link footer__link--gray" href="#">FAW</a>
+                        <a class="footer__link footer__link--gray" href="#">BYD</a>
+                        <a class="footer__link footer__link--gray" href="#">JAC</a>
+                        <a class="footer__link footer__link--gray" href="#">Lifan</a>
+                        <a class="footer__link footer__link--gray" href="#">DongFeng</a>
+                    </div>
+                </nav>
+                <nav class="footer__nav">
+                    <h6 class="footer__title">Авто из Кореи</h6>
+                    <div class="footer__wrap">
+                        <a class="footer__link footer__link--gray" href="#">Hyundai</a>
+                        <a class="footer__link footer__link--gray" href="#">Kia</a>
+                        <a class="footer__link footer__link--gray" href="#">SsangYong</a>
+                        <a class="footer__link footer__link--gray" href="#">Daewoo</a>
+                        <a class="footer__link footer__link--gray" href="#">Samsung</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__nav">
+                <p class="footer__link">Политика конфиденциальности</p>
+                <p class="footer__link footer__link--gray">© 2003–2024 ООО "Автоцентр"</p>
+            </div>
+            <div class="footer__box">
+                <nav class="footer__social">
+                    <svg class="footer__icon">
+                        <use href="./img/icon.svg#icon-phone"></use>
+                    </svg>
+                    <svg class="footer__icon">
+                        <use href="./img/icon.svg#icon-tg"></use>
+                    </svg>
+                    <svg class="footer__icon footer__icon--youtube">
+                        <use href="./img/icon.svg#icon-youtube"></use>
+                    </svg>
+                </nav>
+                <div>
+                    <a class="footer__phone" href="tel:+71234567890">+7 123 456 78 90</a>
+                    <p class="footer__text">Звонок по РФ бесплатный</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="./js/index.js" type="module"></script>
+</body>
+
+</html>
